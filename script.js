@@ -17,5 +17,5 @@ function printCss(){
     var css1 = color1.value;
     var css2 = color2.value;
 
-    css.innerHTML("background: linear-gradient(to right, CSS, yellow)")
+    css.innerHTML("background: linear-gradient(to right, " + css1 + ",  " + css2 + " )")
 }
